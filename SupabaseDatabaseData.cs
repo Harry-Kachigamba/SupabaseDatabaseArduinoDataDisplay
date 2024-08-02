@@ -7,7 +7,7 @@ namespace SupabaseArduinoDataDisplay
 {
 	public class DataService
 	{
-		private string connectionString = "Host=aws-0-eu-central-1.pooler.supabase.com;Port=6543;Username=postgres.pokmjfgwexrzniphrnie;Password=HC_iEJbPVyrG5Bs;Database=postgres;SslMode=Require;Trust Server Certificate=true;";
+		private string connectionString = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 
 		public async Task<List<TemperatureLog>> GetTemperatureLogsAsync()
 		{
